@@ -1,0 +1,55 @@
+<head>
+    <title>My Survey Form</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main id=main>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label"><b>Name</b><input id="name" type="text" name="name" /></label>
+                <label id="email-label"><b>Email</b><input id="email" type="email" name="email" /></label>
+                <label id="number-label"><b>Age (optional)</b><input id="number" type="number" name="number" min="6"
+                        max="80" /></label>
+
+                <p><b>Which option best describes your current role?</b></p>
+                <select id=dropdown" name="role">
+                    <option value="student">Student</option>
+                    <option value="fullTimeJob">Full Time Job</option>
+                    <option value="fullTimeLearner">Full Time Learner</option>
+                    <option value="notToSay">Prefer Not To Say</option>
+                    <option value="other">Other</option>
+                </select>
+                <div id="radioButton">
+                    <p><b>Would you recommend freeCodeCamp to a friend?</b></p>
+                    
+                    <label for="definitely">
+                    <input class="radio" type="radio" name="definitely" value="definitely" checked="checked" />Definitely</label>
+                    
+                    <label for="maybe">
+                    <input class="radio" type="radio" name="maybe" value="maybe" />Maybe</label>
+
+                    <label for="notSure">
+                    <input class="radio" type="radio" name="notSure" value="notSure" />Not Sure</label>
+                </div>
+                <div>
+                    <p>
+                        <b>Any comments or suggestions?</b>
+                    </p>
+                    <textarea id="textarea" name="comments">Enter your comments or suggestions...</textarea>
+                    </textarea>
+                </div>
+                <div >
+                    <input id="submit" type="submit" name="submit" value="submit" />
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
