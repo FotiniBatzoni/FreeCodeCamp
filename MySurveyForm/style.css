@@ -1,0 +1,52 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 8, 68);
+}
+
+header{
+    text-align: center;
+}
+
+fieldset{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    padding-left: 2em;
+
+    
+    background-color: rgb(159, 202, 238);
+}
+#description{
+    margin-bottom: 3em;
+}
+
+fieldset{
+    display: block-flex;
+    direction: ltr;
+}
+
+input, select{
+    display:block;
+    min-width: 90%;
+    font-size: 105%;
+}
+
+
+#textarea{
+   min-width: 90%;
+   height: 30%;
+   margin-bottom: 3em;
+}
+
+.radio{
+    display: inline;
+    min-width: 30px;
+    padding: 1em;
+}
+
+#submit{
+    background-color: rgb(136, 109, 156);
+    color: white;
+}
